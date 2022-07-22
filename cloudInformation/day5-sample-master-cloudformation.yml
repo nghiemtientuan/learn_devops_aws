@@ -1,0 +1,13 @@
+
+AWSTemplateFormatVersion: 2010-09-09
+Description: Simple cloundformation master template of devOps class
+
+Resources:
+  myStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://tuntun-cloundformation-template.s3.ap-southeast-1.amazonaws.com/day5-sample-cloudformation.yml
+      Parameters:
+        env: stag
+        project: nested
+        InstanceType: t2.micro

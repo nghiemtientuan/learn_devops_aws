@@ -1,0 +1,6 @@
+ami             = "ami-052efd3df9dad4825"
+instance_type   = "t2.micro"
+name            = "Day6-Demo-Instance-stg"
+key_name        = "learn-depop-us-east-1"
+vpc_id          = "vpc-0974ddf8174083e9a"
+subnet_id       = "subnet-0905d1b1aa4d7ebe1"
